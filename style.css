@@ -1,0 +1,74 @@
+body{
+    font-family: "poppins",Arial;
+}
+a{
+    text-decoration: none;
+}
+/* home page image */
+header{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,0.6)), url(images/homepage_background_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;  
+}
+/* end of home page image */
+
+/* navigation bar */
+/* .ulcssa{
+    margin-left: 220px;
+} */
+.navbar-item{
+    left: 0;
+    position: relative;
+    margin-left: 0;
+}
+/* end of navigation bar */
+
+/* horizontal line */
+.underline{
+    width: auto;
+    border: 0.5px solid lightgray;
+    opacity: 0.3;
+}
+.underline-line{
+    width: auto;
+    border: 0.5px solid lightgray;
+    opacity: 0.3;
+}
+.underline-small{
+    width: auto;
+    border: 0.5px solid white;
+    opacity: 0.3;
+}
+/* end of horizontal line */
+
+/* center the heading */
+.heading1{
+    padding-top: 100px;
+    margin-left: 180px;
+}
+.heading2{
+    margin-left: 230px;
+}
+.paragraph1{
+    font-size: 16px;
+    margin-right: 0;
+    border-spacing: 0;
+}
+.paragraph2{
+    font-size: 16px;
+    margin-right: 0;
+    margin-left: 35px;
+}
+.buttons{
+    padding-top: 200px;
+    padding: 15px;
+    margin-left: 83px;
+    border-radius: 50px;
+    background-color: blue;
+}
+/* end of center the heading */
+.icon{
+    text-align: center;
+}
